@@ -1,0 +1,22 @@
+{
+  "name": "blakeslee-levin",
+  "version": "1.0.0",
+  "description": "Personal wedding site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tlevin/wedding-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tlevin/wedding-site/issues"
+  },
+  "homepage": "https://github.com/tlevin/wedding-site#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
