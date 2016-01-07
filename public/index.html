@@ -8,13 +8,10 @@
 </head>
 <body>
   <nav class="uk-navbar">
-    <div class="uk-navbar-flip">
-      <a class='uk-navbar-brand' href='./'>Blakeslee-Levin Wedding</a>
-    </div>
-    <a class="uk-navbar-toggle" data-uk-offcanvas="{target:'#my-id'}"></a>
-    <div class="uk-offcanvas" id="my-id">
-      <div class="uk-offcanvas-bar">
-        <ul class="uk-nav uk-nav-offcanvas">
+    <div class="uk-button-dropdown uk-navbar-content" data-uk-dropdown="{mode:'click'}">
+      <button><i class="uk-icon-caret-down"></i>Menu</button>
+    <div class="uk-dropdown uk-dropdown-navbar">
+        <ul class="uk-nav uk-nav-navbar">
           <li><a href="./about.html"><i class="uk-icon-heart "></i> About Us</a></li>
           <li><a href="./weddingDay.html"><i class="uk-icon-calendar-check-o"></i> Our Day</a></li>
           <li><a href="./directions.html"><i class="uk-icon-map"></i> Getting There</a></li>
@@ -22,15 +19,16 @@
           <li><a href="./recreation.html"><i class="uk-icon-photo"></i> Things to Do</a></li>
         </ul>
       </div>
-    </div>  
+    </div>
+
+    <div class="uk-navbar-content title">Blakeslee-Levin Wedding </div>
   </nav>
 
-  <div class="uk-cover-background" style="background-image: url('./images/backdrop.jpg'); height: 95vh;">
+  <div class="uk-cover-background" style="background-image: url('./images/backdrop.jpg'); height: 85vh; background-position: 84% 50%">
     <div class="uk-vertical-align uk-height-1-1 uk-text-center">
       <div class="uk-align-middle uk-vertical-align-bottom uk-container-center uk-width-1-1">
         <div class="timer">
           <h1 class="weddingDate"></h1>
-          <h2 class="countdown"></h1>
         </div>
       </div>
     </div>
@@ -38,6 +36,6 @@
   <script src="./js/jquery.min.js"></script>
   <script src="./js/uikit.min.js"></script>
   <script src="./js/moment.min.js"></script>
-  <script src="./js/timer.js"></script>
+  <script src="./js/app.js"></script>
 </body>
 </html>

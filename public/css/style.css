@@ -4,21 +4,44 @@
 .container {
   width: 100%;
   height: 400px;
-  background-image: url("./images/guildhall.jpg");
   background-size: cover;
 }
+.centerText {
+  text-align: center;
+}
+.uk-vertical-align-bottom {
+  margin-bottom: -65px;
+}
+button {
+  height: 35px;
+  background: #ff0;
+  width: auto;
+  font-size: 24px;
+}
+.alert {
+  border: 2px solid #f00;
+}
+.title {
+  color: #fff;
+  font-size: 3em;
+  text-align: center;
+  width: 85%;
+}
 .timer {
-  background: #00346d;
+  background: #0018be;
   color: #fff;
   border: 1px solid #000;
   padding: 15px;
 }
 .timer h1,
 .timer h2 {
+  padding: 0;
   color: #fff;
 }
-.uk-navbar-toggle {
-  color: #fff;
+footer {
+  height: 50px;
+  background: #0018be;
+  display: block;
 }
 .uk-navbar-toggle:hover,
 .uk-navbar-brand:hover {
@@ -28,20 +51,8 @@
   color: #fff;
 }
 .uk-navbar {
-  background: #00346d;
-}
-.uk-offcanvas {
-  background-color: rgba(56,118,185,0.3);
-}
-.uk-offcanvas-bar {
-  width: auto;
-  border-right: 3px solid #000;
-  background: #00346d;
-  padding-top: 20px;
-}
-.uk-nav-offcanvas li a {
-  color: #fff;
-  font-size: 25px;
+  background: #0018be;
+  padding: 5px;
 }
 .uk-nav-offcanvas>.uk-open>a,
 html:not(.uk-touch) .uk-nav-offcanvas>li>a:focus,
@@ -49,4 +60,26 @@ html:not(.uk-touch) .uk-nav-offcanvas>li>a:hover,
 .uk-nav.uk-nav-offcanvas>li.uk-active>a {
   background: #0093b9;
   color: #fff;
+}
+@media only screen and (max-width: 850px) {
+  .title {
+    font-size: 2em;
+    text-align: center;
+    width: 75%;
+  }
+  button {
+    height: 25px;
+    margin-left: -15px;
+    magin-right: -20px;
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .title {
+    font-size: 1.75em;
+    width: auto;
+  }
+  .timer h1 {
+    font-size: 30px;
+  }
 }
