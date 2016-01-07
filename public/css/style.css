@@ -8,6 +8,8 @@
 }
 .centerText {
   text-align: center;
+  color: #fff;
+  padding-top: 10px;
 }
 .uk-vertical-align-bottom {
   margin-bottom: -65px;
