@@ -34,9 +34,6 @@ button {
   background: #fff;
   border: 2px solid #000;
 }
-.uk-grid>*>:last-child {
-  margin: 15px;
-}
 .alert {
   border: 2px solid #f00;
 }
