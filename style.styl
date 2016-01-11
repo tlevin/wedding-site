@@ -23,6 +23,10 @@ button
   border 2px solid black
   text-align center
 
+.uk-modal-header
+  text-align center
+  border-bottom 1px solid black
+
 .panelBox
   position absolute
   top 30px
@@ -31,7 +35,26 @@ button
   width 250px
   background white
   border 2px solid black
+  padding-left 3px
+  margin-right 3px
 
+.quotes
+  position relative
+.quotesText
+  max-height 158px
+  overflow hidden
+  &:after
+    content 'Read More...'
+    position absolute
+    bottom -18px
+    right 18px
+.uk-width-1-3 a
+  text-decoration none
+  color black
+
+.uk-modal-dialog
+  max-height 90vh
+  overflow-y scroll
 ///////////////// Colors /////////////////////
 primaryColor = #0018BE
 secondaryColor = #fff
@@ -61,8 +84,7 @@ footer
   left:0px
   bottom:0px
   height:50px
-  width:100%
-
+  widows 100%
 .uk-navbar-toggle:hover, .uk-navbar-brand:hover
   color hoverColor
 
@@ -74,6 +96,12 @@ footer
 .uk-nav-offcanvas>.uk-open>a, html:not(.uk-touch) .uk-nav-offcanvas>li>a:focus, html:not(.uk-touch) .uk-nav-offcanvas>li>a:hover, .uk-nav.uk-nav-offcanvas>li.uk-active>a
   background hoverColor
   color secondaryColor
+
+.uk-panel
+  // border 2px solid black
+  -webkit-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.75)
+  -moz-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.75)
+  box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.75)
 
 @media only screen and (max-width: 850px)
   .title
