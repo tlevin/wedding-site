@@ -14,6 +14,9 @@ function initMap() {
     center: {lat: 44.565594, lng: -71.561004},
     disableDefaultUI: true,
     zoomControl: true,
+    zoomControlOptions: {
+        position: google.maps.ControlPosition.RIGHT_TOP
+    },
     scrollwheel: false
   });
   directionsDisplay.setMap(map);
