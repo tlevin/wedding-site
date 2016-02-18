@@ -1,3 +1,16 @@
+h1,
+h2,
+li,
+button,
+div,
+dt,
+dd {
+  font-family: 'Dancing Script', cursive;
+}
+.quotesText,
+p {
+  font-family: cursive;
+}
 .hidden {
   display: none;
 }
@@ -10,6 +23,18 @@
   text-align: center;
   color: #fff;
   padding-top: 10px;
+  font-weight: 700;
+  font-size: 40px;
+  width: 100%;
+}
+li {
+  font-size: 25px;
+}
+blockquote {
+  margin-right: 5px;
+}
+.uk-button-dropdown {
+  margin-top: 10px;
 }
 .uk-vertical-align-bottom {
   margin-bottom: -65px;
@@ -50,7 +75,7 @@ button {
 .quotesText:after {
   content: 'Read More...';
   position: absolute;
-  bottom: -18px;
+  bottom: -25px;
   right: 18px;
 }
 .uk-grid {
@@ -68,10 +93,11 @@ button {
   overflow-y: scroll;
 }
 dt {
-  margin: 30px 0 20px 0;
+  margin: 40px 0 20px 0;
   font-size: 30px;
 }
 dd {
+  margin: 10px 0;
   font-size: 25px;
 }
 .alert {
@@ -79,9 +105,11 @@ dd {
 }
 .title {
   color: #fff;
+  margin-top: 10px;
   font-size: 3em;
   text-align: center;
   width: 85%;
+  font-size: 50px;
 }
 .timer {
   background: #0018be;
